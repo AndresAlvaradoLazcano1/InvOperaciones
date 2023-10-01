@@ -6,7 +6,7 @@ principalMenu = int(input("Menú Principal: \n 1- Maximizar función por simlex 
 
 while principalMenu != 0:
     if principalMenu == 1:
-        #Validacion de datos para la introduccion de la cantidad de variables por parte del usuario1 
+        #Validacion de datos para la introduccion de la cantidad de variables por parte del usuario pushpruebaAQUI
         while True:
             try:
                 num_variables = int(input("Introduce el numero de variables: "))
